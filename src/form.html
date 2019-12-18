@@ -27,7 +27,7 @@
       </ul>
     </div>
     <div class="form">
-      <form> <!--action="/action_page.php" method="post"-->
+      <form action="/add_recipe" method="post"> <!--action="/action_page.php" method="post"-->
         Nazwa przepisu:<br>
         <input type="text" name="title" placeholder="Ciasto..." size="50" required>
         <br>
@@ -35,7 +35,7 @@
         <input type="text" name="ingredients" placeholder="mąka, mak,..." size="50" required>
         <br>
         Sposób przygotowania:<br>
-        <input type="text" name="preparation" placeholder="Najpierw należy..." size="50" required>
+        <input type="text" name="preparation" placeholder="Najpierw należy..." id="long-input" size="50" required>
         <br>
         Słowa kluczowe (tagi):<br>
         <input type="text" name="keywords" placeholder="bez laktozy, bezglutenowy,..." size="50" required>
